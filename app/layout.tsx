@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Nextjs Animated Portfolio with Framer Motion",
     siteId: "",
     creator: "denzelmswazi",
-    images: [`process.env.NEXT_PUBLIC_SERVER_URL}/image/og.png`]
+    images: [`process.env.NEXT_PUBLIC_SERVER_URL}/images/og.png`]
    }
 }
 
