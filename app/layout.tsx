@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       noimageindex: false,
     }
   },
-  manifest: `${ process.env.NEXT_PUBLIC_SERVER_URL}/manifest.webmanifest`,
+  manifest: `${process.env.NEXT_PUBLIC_SERVER_URL}/manifest.webmanifest`,
   icons: {
     icon: "/logo/logo-16.png",
     shortcut: "/logo/logo-16.png",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Nextjs Animated Portfolio with Framer Motion",
     siteId: "",
     creator: "denzelmswazi",
-    images: [`process.env.NEXT_PUBLIC_SERVER_URL}/images/og.png`]
+    images: [`${process.env.NEXT_PUBLIC_SERVER_URL}/images/og.png`]
    }
 }
 
