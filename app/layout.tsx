@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter }from "next/font/google";
 import "./globals.css";
+import { jose } from "./fonts";
 
-const inter = Inter({ subsets: ["latin"] });
 
-// SEO GLOBAL
+
 export const metadata: Metadata = {
   metadataBase: new URL(`${ process.env.NEXT_PUBLIC_SERVER_URL }`),
   applicationName: 'Washington Karanja Portfolio',
@@ -53,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={inter.className}
+        className={jose.className}
       >
         {children}
       </body>
