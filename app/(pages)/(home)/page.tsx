@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-        This is the main home page
+    <main className="flex min-h-screen flex-col items-center">
+        <h1>Font josephan</h1>
         <Image width={100} height={100} alt="logo" src="/logo/logo-100.png"/>
     </main>
   );
